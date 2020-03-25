@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -22,14 +23,6 @@
     "extends": "react-app"
   },
   "main": "server/",
-  "proxy": {
-    "/auth/callback": {
-      "target": "http://localhost:5000"
-    },
-    "/api": {
-      "target": "http://localhost:5000"
-    }
-  },
   "now": {
     "alias": "ali-store"
   },
